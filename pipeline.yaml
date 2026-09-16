@@ -42,3 +42,5 @@ stages:
       environmentName: "${{ parameters.environmentName }}"
       serviceName: "${{ variables.serviceName }}"
       dockerFile: Dockerfile
+      sonarAnalysis: true
+      sonarReferenceBranch: master
